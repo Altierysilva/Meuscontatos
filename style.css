@@ -1,0 +1,109 @@
+
+body{
+
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #222831; /*cor de fundo*/
+    
+}
+
+#assinatura{
+
+    color: #222831;
+
+}
+#assinatura:hover{
+
+    color: rgb(0, 4, 252);
+}
+img{
+
+    width: 100px;
+    border-radius: 50%;
+    border: #222831 5px solid;
+}
+
+div{
+
+    background-color: #EEEEEE;
+    width: 340px;
+    text-align: center;
+    /*centraliza da div*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+
+    padding: 30px;/*espaçamento interno*/
+    border-radius: 10px;
+}
+
+h1{
+
+    color:#393E46;
+    font-size: 32px;
+    margin: 0;
+
+}
+
+h2{
+
+    color:#222831;
+    font-size: 20px;
+    margin: 0;
+}
+
+p{
+
+    color:#666666;
+    font-size: 16px; /* valor inicial 16 px*/
+    margin: 8px;
+}
+ol{
+    padding: 0px;
+    list-style-type: none;
+
+}
+ol a{
+
+    background-color: #393E46;
+    display: block;
+    margin-bottom: 5px;
+    padding: 10px 0;
+    color: #EEEEEE;
+    border-radius: 3px;
+    text-decoration: none;
+    
+}
+
+ol a:hover{
+
+    background-color:#0e0e0e;
+    color: #1100ff;
+
+}
+
+/*
+    media queries
+    condicionais para o css ser aplicado
+*/
+/*  
+    se a tela for ate 500px
+*/
+
+@media (max-width: 500px){
+
+    div{
+        width: 300px;
+        padding: 15px;
+
+    }
+
+    img{
+        width: 80px;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+
+}
